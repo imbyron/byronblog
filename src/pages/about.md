@@ -1,36 +1,46 @@
 ---
 layout: ../layouts/AboutLayout.astro
-title: "About"
+title: "关于"
 ---
 
-AstroPaper is a minimal, responsive and SEO-friendly Astro blog theme. I designed and crafted this based on [my personal blog](https://satnaing.dev/blog).
+## 关于「Google一下」
 
-This theme is aimed to be accessible out of the box. Light and dark mode are supported by
-default and additional color schemes can also be configured.
-
-This theme is self-documented \_ which means articles/posts in this theme can also be considered as documentations. So, see the documentation for more info.
+「Google一下」是一个致力于探索人类认知、行为模式与前沿科技的多元学习博客。这个名字源于我们日常解决问题的第一反应，有问题"Google一下"，象征着求知、探索和终身学习的态度。
 
 <div>
   <img src="/dev.svg" class="sm:w-1/2 mx-auto" alt="coding dev illustration">
 </div>
 
-## Tech Stack
+## 博客主题
 
-This theme is written in vanilla JavaScript (+ TypeScript for type checking) and a little bit of ReactJS for some interactions. TailwindCSS is used for styling; and Markdown is used for blog contents.
+在这个信息爆炸的时代，「Google一下」专注于以下几个核心领域：
 
-## Features
+- **心理学与认知科学**：探索人类思维的运作机制，理解我们如何感知世界、做出决策以及形成行为模式
+- **大脑科学与神经可塑性**：研究大脑如何工作，以及我们如何通过有意识的实践重塑思维方式
+- **习惯养成与行为改变**：分享基于科学的方法，帮助建立积极的习惯，改变不良的行为模式
+- **健康生活与身心平衡**：探讨身体健康与心理健康的相互关系，以及如何在现代生活中保持平衡
+- **跨学科思维模型**：整合不同领域的思维工具，构建解决复杂问题的思维框架
+- **AI与前沿科技**：关注人工智能大模型的发展，分享高效提示词技巧，展示AI在创意和实用领域的应用
 
-Here are certain features of this site.
+## 博客理念
 
-- fully responsive and accessible
-- SEO-friendly
-- light & dark mode
-- fuzzy search
-- super fast performance
-- draft posts
-- pagination
-- sitemap & rss feed
-- highly customizable
+「Google一下」的核心理念是：
 
-If you like this theme, you can star/contribute to the [repo](https://github.com/satnaing/astro-paper).  
-Or you can even give any feedback via my [email](mailto:contact@satnaing.dev).
+1. **知识拆解**：将复杂的理论和概念拆解为易于理解的学习笔记
+2. **实践导向**：强调知识的实际应用，而非纯粹的理论探讨
+3. **跨界融合**：打破学科界限，寻找不同领域之间的联系和共通点
+4. **持续迭代**：保持开放的心态，不断更新和完善已有的认知框架
+5. **科技赋能**：探索人类认知与人工智能交汇的无限可能
+
+## 关于博主
+
+大家可以叫我Byron，我是一名终身学习者，对认知科学、行为心理学和前沿科技充满热情。通过「Google一下」，我希望记录自己的学习旅程，分享探索过程中的洞见，同时与志同道合的读者建立联系。
+
+## 联系方式
+
+如果你对博客内容有任何问题、建议或合作意向，欢迎通过以下方式联系我：
+
+- 邮箱：byronjia[at]gmail[dot]com
+- 社交媒体：<a href="https://v2ex.com/member/byron" target="_blank">V2EX</a>
+
+感谢你访问「Google一下」，希望这里的内容能为你的认知旅程带来一些启发和帮助。
