@@ -14,7 +14,12 @@ export default defineConfig({
     }),
   ],
   markdown: {
-    remarkPlugins: [remarkToc, [remarkCollapse, { test: "Table of contents" }]],
+    remarkPlugins: [
+      // 明确告诉 remarkToc 寻找 '目录' 标题
+      [remarkToc, { heading: '目录' }],
+      // 继续让 remarkCollapse 作用于 '目录' 标题
+      [remarkCollapse, { test: "目录" }]
+    ],
     shikiConfig: {
       // For more themes, visit https://shiki.style/themes
       themes: { light: "min-light", dark: "night-owl" },
