@@ -43,4 +43,4 @@ title: "关于"
 - 邮箱：byronjia[at]gmail[dot]com
 - 社交媒体：<a href="https://v2ex.com/member/byron" target="_blank">V2EX</a>
 
-感谢你访问「Google一下」，希望这里的内容能为你的认知旅程带来一些启发和帮助。
+感谢你访问「Google一下」，期待与你在这里一同探索、交流、共同成长。
