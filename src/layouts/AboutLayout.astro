@@ -21,8 +21,15 @@ const { frontmatter } = Astro.props;
   <main id="main-content">
     <section id="about" class="prose mb-28 max-w-3xl prose-img:border-0">
       <h1 class="text-2xl tracking-wider sm:text-3xl">{frontmatter.title}</h1>
+      <p>以好奇心为起点，探索认知、行为与科技的奥秘，分享在学习与实践中不断塑造自我的旅程。</p>
       <slot />
     </section>
   </main>
   <Footer />
 </Layout>
+
+<style is:global>
+  #about > p + h2 {
+    margin-top: 1rem;
+  }
+</style>

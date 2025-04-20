@@ -15,7 +15,7 @@ let tags = getUniqueTags(posts);
 
 <Layout title={`Tags | ${SITE.title}`}>
   <Header />
-  <Main pageTitle="Tags" pageDesc="All the tags used in posts.">
+  <Main pageTitle="标签" pageDesc="于此，概念不再孤立，允许探索者在知识的版图上自由穿梭，从而构建属于自己的认知地图。">
     <ul>
       {tags.map(({ tag, tagName }) => <Tag {tag} {tagName} size="lg" />)}
     </ul>
