@@ -4,7 +4,7 @@ author: Byron
 pubDatetime: 2025-04-20T18:25:40.000+08:00
 modDatetime:
 slug: buffett-life-investment-qualities
-featured: false
+featured: true
 draft: false
 tags:
   - 巴菲特
