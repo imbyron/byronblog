@@ -57,7 +57,7 @@ description: 记录我使用 Gemini 和 ChatGPT 等 AI 工具辅助开发开源 
 * **生成Logo的Prompt**：
     > 我特别喜欢生成的icon，帮我将它转为透明的png图片，我想要128x128大小。
 
-![Inkflow Markdown Logo](@/assets/2025/5/Logo.png)
+![Inkflow Markdown Logo](@/assets/2025/5/logo.png)
 *<center>ChatGPT 生成的 Logo</center>*
 
 用AI生成设计素材，虽然可能不如专业设计师那么精细和富有创意，但对于个人开发者或者需要快速迭代原型的项目来说，确实是一个非常高效和低成本的选择。关键在于如何清晰、准确地向AI表达你的设计需求。
