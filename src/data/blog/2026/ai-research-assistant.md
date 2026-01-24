@@ -1,6 +1,6 @@
 ---
-title: "AI助手撰写胶质瘤研究报告：惊艳与恐怖并存的实验室时刻"
-author: "Byron"
+title: AI助手撰写胶质瘤研究报告：惊艳与恐怖并存的实验室时刻
+author: Byron
 pubDatetime: 2026-01-24T15:23:00Z
 modDatetime: 
 slug: ai-research-assistant
@@ -10,7 +10,7 @@ tags:
   - AI
   - 科研
   - 胶质瘤
-  - "wen
+  - wen
   - 大模型
 description: 分享使用AI助手完成胶质瘤研究报告的经历，体验到了前所未有的惊艳与恐怖感。
 ---
