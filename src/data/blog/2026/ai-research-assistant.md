@@ -47,6 +47,6 @@ description: "分享使用AI助手完成胶质瘤研究报告的经历，体验�
 
 如果你对这份胶质瘤研究报告感兴趣，可以点击下方链接查看：
 
-[胶质瘤治疗前沿技术研究综述](https://googleyixia.com/reports/glioblastoma-research)
+[胶质瘤治疗前沿技术研究综述](https://googleyixia.com/pages/glioblastoma-research)
 
 这或许只是AI辅助科研的一个缩影，但它预示着一个全新的时代正在到来。
