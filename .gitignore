@@ -23,5 +23,7 @@ pnpm-debug.log*
 .idea/
 
 # pagefind
-
 public/pagefind
+
+# plans (local development notes)
+plans/
