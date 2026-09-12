@@ -4,6 +4,7 @@ import { SITE } from "@/config";
 import "@/styles/global.css";
 
 const googleSiteVerification = import.meta.env.PUBLIC_GOOGLE_SITE_VERIFICATION;
+const googleAdsenseClient = import.meta.env.PUBLIC_GOOGLE_ADSENSE_CLIENT;
 
 export interface Props {
   title?: string;
@@ -121,6 +122,20 @@ const structuredData = {
         <meta
           name="google-site-verification"
           content={googleSiteVerification}
+        />
+      )
+    }
+
+    {
+      // If PUBLIC_GOOGLE_ADSENSE_CLIENT is set, inject the AdSense auto-ads script
+      // in <head> so it loads on every page.
+      // Learn more: https://support.google.com/adsense/answer/9274182
+      googleAdsenseClient && (
+        <script
+          is:inline
+          async
+          src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${googleAdsenseClient}`}
+          crossorigin="anonymous"
         />
       )
     }

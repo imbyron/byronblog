@@ -6,7 +6,9 @@ import siteOgImage from "./og-templates/site";
 function svgBufferToPngBuffer(svg: string) {
   const resvg = new Resvg(svg);
   const pngData = resvg.render();
-  return pngData.asPng();
+  // Wrap the Node Buffer in a fresh ArrayBuffer-backed Uint8Array so it is a
+  // valid `BodyInit` for the Response constructor (astro check / TS 6).
+  return new Uint8Array(pngData.asPng());
 }
 
 export async function generateOgImageForPost(post: CollectionEntry<"blog">) {
